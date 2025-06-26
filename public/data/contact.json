@@ -1,0 +1,130 @@
+{
+  "contact": {
+    "company": "Afriqar",
+    "tagline": "Connecting Africa's Heritage to the World",
+    "address": {
+      "street": "123 Heritage Boulevard",
+      "city": "Accra",
+      "state": "Greater Accra Region",
+      "country": "Ghana",
+      "zipCode": "GA-001-0001"
+    },
+    "phone": "+233 20 123 4567",
+    "email": "info@afriqar.com",
+    "website": "www.afriqar.com",
+    "hours": {
+      "weekdays": "9:00 AM - 6:00 PM (GMT)",
+      "weekends": "10:00 AM - 4:00 PM (GMT)",
+      "timezone": "Greenwich Mean Time (GMT)"
+    }
+  },
+  "socialMedia": [
+    {
+      "platform": "Facebook",
+      "url": "https://facebook.com/afriqar",
+      "icon": "facebook",
+      "followers": "125K"
+    },
+    {
+      "platform": "Twitter",
+      "url": "https://twitter.com/afriqar",
+      "icon": "twitter",
+      "followers": "89K"
+    },
+    {
+      "platform": "Instagram",
+      "url": "https://instagram.com/afriqar",
+      "icon": "instagram",
+      "followers": "156K"
+    },
+    {
+      "platform": "YouTube",
+      "url": "https://youtube.com/c/afriqar",
+      "icon": "youtube",
+      "subscribers": "67K"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/company/afriqar",
+      "icon": "linkedin",
+      "followers": "34K"
+    },
+    {
+      "platform": "TikTok",
+      "url": "https://tiktok.com/@afriqar",
+      "icon": "music",
+      "followers": "298K"
+    }
+  ],
+  "departments": [
+    {
+      "name": "General Inquiries",
+      "email": "info@afriqar.com",
+      "description": "General questions and information"
+    },
+    {
+      "name": "Technical Support",
+      "email": "support@afriqar.com",
+      "description": "Website issues and technical assistance"
+    },
+    {
+      "name": "Content Partnership",
+      "email": "partnerships@afriqar.com",
+      "description": "Content collaboration and partnerships"
+    },
+    {
+      "name": "Community Management",
+      "email": "community@afriqar.com",
+      "description": "Community forums and user engagement"
+    },
+    {
+      "name": "Research & Education",
+      "email": "research@afriqar.com",
+      "description": "Educational content and research inquiries"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is Afriqar?",
+      "answer": "Afriqar is a comprehensive digital platform dedicated to preserving, sharing, and celebrating African heritage, culture, and traditions. We provide interactive tools for heritage discovery, entertainment, education, and community building."
+    },
+    {
+      "question": "Is Afriqar free to use?",
+      "answer": "Yes, most of Afriqar's features are free to use. We offer a freemium model where basic features are available to all users, with premium features available through subscription."
+    },
+    {
+      "question": "How accurate is the tribal matching feature?",
+      "answer": "Our tribal matching feature uses historical data, linguistic analysis, and cultural patterns. While we strive for accuracy, results should be considered educational and exploratory rather than definitive genealogical proof."
+    },
+    {
+      "question": "Can I contribute content to Afriqar?",
+      "answer": "Absolutely! We welcome contributions from community members, including cultural stories, historical information, and educational content. Please contact our Content Partnership team for guidelines."
+    },
+    {
+      "question": "How do I report inappropriate content?",
+      "answer": "If you encounter inappropriate content, please use our reporting feature available on each content page, or contact our Community Management team directly."
+    },
+    {
+      "question": "Is my personal data safe?",
+      "answer": "Yes, we take data privacy seriously. We follow international data protection standards and never sell personal information to third parties. See our Privacy Policy for detailed information."
+    },
+    {
+      "question": "How often is content updated?",
+      "answer": "We continuously update our content database. New movies, podcasts, educational materials, and cultural information are added weekly."
+    },
+    {
+      "question": "Can I use Afriqar for educational purposes?",
+      "answer": "Yes! Afriqar is designed to be an educational resource. We offer special features for educators and students, including downloadable materials and structured learning paths."
+    }
+  ],
+  "newsletter": {
+    "title": "Stay Connected with African Heritage",
+    "description": "Subscribe to our newsletter for the latest updates on African culture, heritage discoveries, and platform features.",
+    "benefits": [
+      "Weekly heritage stories and discoveries",
+      "Early access to new features",
+      "Exclusive cultural content",
+      "Community event notifications"
+    ]
+  }
+}

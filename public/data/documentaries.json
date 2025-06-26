@@ -1,0 +1,176 @@
+{
+  "categories": [
+    {
+      "id": "history",
+      "name": "Historical Documentaries",
+      "description": "Explore Africa's rich historical heritage"
+    },
+    {
+      "id": "nature",
+      "name": "Nature & Wildlife",
+      "description": "Africa's incredible biodiversity and landscapes"
+    },
+    {
+      "id": "culture",
+      "name": "Cultural Heritage",
+      "description": "Traditional and contemporary African cultures"
+    },
+    {
+      "id": "social",
+      "name": "Social Issues",
+      "description": "Contemporary social challenges and solutions"
+    }
+  ],
+  "documentaries": [
+    {
+      "id": "kingdoms-of-africa",
+      "title": "Lost Kingdoms of Africa",
+      "category": "history",
+      "duration": "6 episodes, 60 min each",
+      "year": "2023",
+      "director": "Kwame Asante",
+      "description": "An epic journey through Africa's forgotten empires and kingdoms, revealing the continent's rich historical legacy.",
+      "image": "/images/african-village.jpg",
+      "episodes": [
+        {
+          "id": "ep1",
+          "title": "The Kingdom of Kush",
+          "description": "The Nubian kingdom that conquered Egypt"
+        },
+        {
+          "id": "ep2",
+          "title": "Great Zimbabwe",
+          "description": "The medieval stone city of southern Africa"
+        },
+        {
+          "id": "ep3",
+          "title": "The Mali Empire",
+          "description": "Mansa Musa and the golden age of Mali"
+        }
+      ],
+      "rating": 9.2,
+      "awards": ["Best Historical Documentary 2023", "African Film Festival Winner"]
+    },
+    {
+      "id": "serengeti-stories",
+      "title": "Serengeti Stories",
+      "category": "nature",
+      "duration": "4 episodes, 45 min each",
+      "year": "2024",
+      "director": "Maria Santos & John Kamau",
+      "description": "Follow the incredible wildlife migrations and ecosystem of the Serengeti across seasons.",
+      "image": "/images/african-landscape.jpeg",
+      "episodes": [
+        {
+          "id": "ep1",
+          "title": "The Great Migration",
+          "description": "2 million animals on the move"
+        },
+        {
+          "id": "ep2",
+          "title": "Predators of the Plains",
+          "description": "Lions, leopards, and cheetahs"
+        },
+        {
+          "id": "ep3",
+          "title": "River Crossings",
+          "description": "Dramatic crossings of the Mara River"
+        }
+      ],
+      "rating": 9.5,
+      "awards": ["Wildlife Photography Excellence", "Nature Documentary of the Year"]
+    },
+    {
+      "id": "rhythms-of-africa",
+      "title": "Rhythms of Africa",
+      "category": "culture",
+      "duration": "3 episodes, 50 min each",
+      "year": "2023",
+      "director": "Amina Hassan",
+      "description": "Explore the diverse musical traditions across the African continent and their global influence.",
+      "image": "/images/african-drums.jpg",
+      "episodes": [
+        {
+          "id": "ep1",
+          "title": "Traditional Beats",
+          "description": "Ancient rhythms and instruments"
+        },
+        {
+          "id": "ep2",
+          "title": "Modern Fusion",
+          "description": "Contemporary African music goes global"
+        },
+        {
+          "id": "ep3",
+          "title": "The Griots",
+          "description": "West Africa's musical storytellers"
+        }
+      ],
+      "rating": 8.8,
+      "awards": ["Best Cultural Documentary", "Music Film Festival Winner"]
+    },
+    {
+      "id": "women-of-africa",
+      "title": "Women of Africa: Changing the Continent",
+      "category": "social",
+      "duration": "5 episodes, 55 min each",
+      "year": "2024",
+      "director": "Grace Wanjiku",
+      "description": "Inspiring stories of African women leaders, entrepreneurs, and changemakers.",
+      "image": "/images/african-family.png",
+      "episodes": [
+        {
+          "id": "ep1",
+          "title": "Political Pioneers",
+          "description": "Women leading nations and movements"
+        },
+        {
+          "id": "ep2",
+          "title": "Tech Innovators",
+          "description": "African women in technology"
+        },
+        {
+          "id": "ep3",
+          "title": "Environmental Champions",
+          "description": "Protecting Africa's natural heritage"
+        }
+      ],
+      "rating": 9.0,
+      "awards": ["Social Impact Award", "Women's Film Festival Grand Prize"]
+    },
+    {
+      "id": "ancient-civilizations",
+      "title": "Ancient Civilizations of Africa",
+      "category": "history",
+      "duration": "8 episodes, 45 min each",
+      "year": "2023",
+      "director": "Dr. Bakari Mensah",
+      "description": "Discover the sophisticated civilizations that flourished in Africa thousands of years ago.",
+      "image": "/images/african-patterns.jpg",
+      "episodes": [
+        {
+          "id": "ep1",
+          "title": "The Nok Culture",
+          "description": "Nigeria's ancient iron age civilization"
+        },
+        {
+          "id": "ep2",
+          "title": "Axum: The Trading Empire",
+          "description": "Ethiopia's ancient commercial powerhouse"
+        },
+        {
+          "id": "ep3",
+          "title": "The Bantu Migrations",
+          "description": "How Bantu peoples shaped Africa"
+        }
+      ],
+      "rating": 8.7,
+      "awards": ["Historical Accuracy Award", "Educational Excellence Prize"]
+    }
+  ],
+  "featured": [
+    "kingdoms-of-africa",
+    "serengeti-stories",
+    "women-of-africa"
+  ]
+}

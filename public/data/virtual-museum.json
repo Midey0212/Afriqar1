@@ -1,0 +1,132 @@
+{
+  "exhibitions": [
+    {
+      "id": "ancient-civilizations",
+      "title": "Ancient African Civilizations",
+      "description": "Explore the rich history of Africa's ancient kingdoms and empires",
+      "image": "/images/african-patterns.jpg",
+      "artifacts": [
+        {
+          "id": "nok-terracotta",
+          "name": "Nok Terracotta Head",
+          "period": "500 BC - 200 AD",
+          "origin": "Nigeria",
+          "description": "Ancient terracotta sculpture from the Nok civilization, showcasing sophisticated artistic skills",
+          "significance": "Represents one of Africa's earliest known civilizations",
+          "image": "/images/tribal-masks.jpg"
+        },
+        {
+          "id": "benin-bronze",
+          "name": "Benin Bronze Plaque",
+          "period": "13th-19th century",
+          "origin": "Benin Kingdom, Nigeria",
+          "description": "Intricate bronze plaque depicting royal court scenes",
+          "significance": "Demonstrates advanced metallurgy and artistic achievement",
+          "image": "/images/african-patterns.jpg"
+        },
+        {
+          "id": "aksum-obelisk",
+          "name": "Aksumite Obelisk",
+          "period": "4th century AD",
+          "origin": "Aksum, Ethiopia",
+          "description": "Massive stone obelisk marking royal graves",
+          "significance": "Symbol of the powerful Aksumite Empire",
+          "image": "/images/african-village.jpg"
+        }
+      ]
+    },
+    {
+      "id": "traditional-arts",
+      "title": "Traditional Arts & Crafts",
+      "description": "Discover the diverse artistic traditions across Africa",
+      "image": "/images/tribal-masks.jpg",
+      "artifacts": [
+        {
+          "id": "kente-cloth",
+          "name": "Kente Cloth",
+          "period": "12th century - Present",
+          "origin": "Ghana",
+          "description": "Handwoven cloth with intricate patterns and symbolic meanings",
+          "significance": "Royal and ceremonial garment with cultural significance",
+          "image": "/images/african-patterns.jpg"
+        },
+        {
+          "id": "dogon-mask",
+          "name": "Dogon Ceremonial Mask",
+          "period": "15th century - Present",
+          "origin": "Mali",
+          "description": "Wooden mask used in traditional ceremonies",
+          "significance": "Connects physical and spiritual worlds in Dogon cosmology",
+          "image": "/images/tribal-masks.jpg"
+        },
+        {
+          "id": "shona-sculpture",
+          "name": "Shona Stone Sculpture",
+          "period": "1950s - Present",
+          "origin": "Zimbabwe",
+          "description": "Modern stone sculpture rooted in traditional spiritual beliefs",
+          "significance": "Contemporary expression of ancient African artistic traditions",
+          "image": "/images/african-village.jpg"
+        }
+      ]
+    },
+    {
+      "id": "music-instruments",
+      "title": "Traditional Music & Instruments",
+      "description": "Experience the rhythms and sounds of Africa",
+      "image": "/images/african-drums.jpg",
+      "artifacts": [
+        {
+          "id": "talking-drum",
+          "name": "Talking Drum",
+          "period": "Ancient - Present",
+          "origin": "West Africa",
+          "description": "Hourglass-shaped drum that mimics speech patterns",
+          "significance": "Used for long-distance communication across villages",
+          "image": "/images/african-drums.jpg"
+        },
+        {
+          "id": "mbira",
+          "name": "Mbira",
+          "period": "1000 years ago - Present",
+          "origin": "Zimbabwe",
+          "description": "Thumb piano with metal tines on wooden board",
+          "significance": "Sacred instrument used to communicate with ancestors",
+          "image": "/images/african-patterns.jpg"
+        },
+        {
+          "id": "kora",
+          "name": "Kora",
+          "period": "13th century - Present",
+          "origin": "West Africa",
+          "description": "21-string harp-lute made from calabash gourd",
+          "significance": "Instrument of griots (traditional storytellers)",
+          "image": "/images/african-village.jpg"
+        }
+      ]
+    }
+  ],
+  "tours": [
+    {
+      "id": "heritage-tour",
+      "title": "African Heritage Journey",
+      "duration": "45 minutes",
+      "stops": 12,
+      "description": "A comprehensive tour through African history and culture"
+    },
+    {
+      "id": "art-tour",
+      "title": "Traditional Arts Tour",
+      "duration": "30 minutes",
+      "stops": 8,
+      "description": "Focus on traditional crafts and artistic expressions"
+    },
+    {
+      "id": "music-tour",
+      "title": "Musical Traditions Tour",
+      "duration": "25 minutes",
+      "stops": 6,
+      "description": "Explore the rich musical heritage of Africa"
+    }
+  ]
+}

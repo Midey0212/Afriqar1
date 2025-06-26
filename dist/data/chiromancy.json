@@ -1,0 +1,152 @@
+{
+  "introduction": {
+    "title": "African Traditional Chiromancy",
+    "description": "Palm reading and divination practices have deep roots in African traditional spirituality. Across the continent, various cultures have developed sophisticated systems of reading palms, understanding destiny, and connecting with ancestral wisdom.",
+    "image": "/images/african-patterns.jpg"
+  },
+  "traditions": [
+    {
+      "id": "yoruba-ifa",
+      "culture": "Yoruba (Nigeria)",
+      "name": "Ifa Divination",
+      "description": "The Yoruba Ifa system is one of the most complex divination systems in the world, combining palm reading with cowrie shells, kola nuts, and oral traditions.",
+      "practices": [
+        "Palm line interpretation",
+        "Cowrie shell casting",
+        "Odu consultation",
+        "Ancestral communication"
+      ],
+      "significance": "Used for important life decisions, healing, and spiritual guidance",
+      "image": "/images/tribal-masks.jpg"
+    },
+    {
+      "id": "akan-adwo",
+      "culture": "Akan (Ghana)",
+      "name": "Adwo Reading",
+      "description": "Akan traditional palm reading focuses on destiny lines and their connection to one's life purpose and ancestral calling.",
+      "practices": [
+        "Destiny line reading",
+        "Life purpose identification",
+        "Ancestral connection assessment",
+        "Spiritual path guidance"
+      ],
+      "significance": "Helps individuals understand their role in the community and spiritual calling",
+      "image": "/images/african-village.jpg"
+    },
+    {
+      "id": "zulu-ukubhula",
+      "culture": "Zulu (South Africa)",
+      "name": "Ukubhula",
+      "description": "Zulu diviners (sangomas) use palm reading as part of their diagnostic and healing practices.",
+      "practices": [
+        "Health diagnosis through palms",
+        "Spiritual blockage identification",
+        "Ancestral message interpretation",
+        "Healing prescription guidance"
+      ],
+      "significance": "Integral part of traditional healing and spiritual counseling",
+      "image": "/images/african-family.png"
+    }
+  ],
+  "palmLines": {
+    "lifeLine": {
+      "name": "Life Line",
+      "africanInterpretation": "Represents one's connection to the earth, ancestors, and life force energy",
+      "meanings": {
+        "long": "Strong ancestral protection and vital life energy",
+        "short": "Intense spiritual focus in this lifetime",
+        "broken": "Spiritual transformation or ancestral calling",
+        "chained": "Need for spiritual cleansing or healing"
+      }
+    },
+    "heartLine": {
+      "name": "Heart Line",
+      "africanInterpretation": "Shows emotional connections to family, community, and spiritual love",
+      "meanings": {
+        "deep": "Strong community bonds and empathetic nature",
+        "faint": "Spiritual rather than emotional focus",
+        "curved": "Nurturing personality with healing abilities",
+        "straight": "Logical approach to relationships and community"
+      }
+    },
+    "headLine": {
+      "name": "Head Line",
+      "africanInterpretation": "Indicates wisdom, decision-making ability, and connection to ancestral knowledge",
+      "meanings": {
+        "long": "Access to ancient wisdom and strong analytical skills",
+        "short": "Intuitive decision-making and spiritual insight",
+        "forked": "Ability to bridge traditional and modern worlds",
+        "wavy": "Creative problem-solving and artistic abilities"
+      }
+    },
+    "fateLine": {
+      "name": "Fate Line",
+      "africanInterpretation": "Shows one's destiny path and purpose within the community",
+      "meanings": {
+        "strong": "Clear life purpose and community leadership",
+        "weak": "Flexible path with multiple possibilities",
+        "absent": "Self-determined destiny, not bound by tradition",
+        "double": "Multiple callings or talents to serve community"
+      }
+    }
+  },
+  "symbols": [
+    {
+      "name": "Star",
+      "meaning": "Divine blessing or special spiritual gift",
+      "location": "Anywhere on palm",
+      "interpretation": "Indicates exceptional spiritual abilities or ancestral favor"
+    },
+    {
+      "name": "Cross",
+      "meaning": "Spiritual crossroads or important life decision",
+      "location": "Various palm areas",
+      "interpretation": "Represents need for spiritual guidance or major life choice"
+    },
+    {
+      "name": "Triangle",
+      "meaning": "Wisdom, learning, and teaching abilities",
+      "location": "Usually on head line or mount areas",
+      "interpretation": "Natural teacher or keeper of traditional knowledge"
+    },
+    {
+      "name": "Square",
+      "meaning": "Protection and stability",
+      "location": "Around any line",
+      "interpretation": "Ancestral protection during challenging times"
+    }
+  ],
+  "readingProcess": [
+    {
+      "step": 1,
+      "title": "Preparation",
+      "description": "Cleanse hands and mind, connect with ancestral energy",
+      "duration": "5 minutes"
+    },
+    {
+      "step": 2,
+      "title": "Initial Observation",
+      "description": "Study overall palm shape, texture, and energy",
+      "duration": "3 minutes"
+    },
+    {
+      "step": 3,
+      "title": "Major Lines Reading",
+      "description": "Analyze life, heart, head, and fate lines",
+      "duration": "10 minutes"
+    },
+    {
+      "step": 4,
+      "title": "Minor Lines and Symbols",
+      "description": "Examine smaller lines and special markings",
+      "duration": "5 minutes"
+    },
+    {
+      "step": 5,
+      "title": "Spiritual Interpretation",
+      "description": "Connect findings to ancestral wisdom and guidance",
+      "duration": "7 minutes"
+    }
+  ],
+  "disclaimer": "Traditional African chiromancy is a cultural and spiritual practice. This information is provided for educational purposes to preserve and share traditional knowledge. For serious life decisions, consult with qualified traditional healers or spiritual advisors."
+}

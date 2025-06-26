@@ -1,0 +1,80 @@
+[
+  {
+    "id": "yoruba",
+    "name": "Yoruba",
+    "region": "West Africa",
+    "countries": ["Nigeria", "Benin", "Togo"],
+    "population": "44 million",
+    "language": "Yoruba",
+    "coordinates": { "lat": 7.3775, "lng": 3.9470 },
+    "description": "One of the largest ethnic groups in Africa, known for their rich cultural traditions, art, and religious practices.",
+    "traditions": ["Orisha worship", "Traditional medicine", "Bronze art", "Textile weaving"],
+    "dialects": ["Standard Yoruba", "Oyo", "Egba", "Ijebu"],
+    "audioSample": "/audio/yoruba-greeting.mp3"
+  },
+  {
+    "id": "igbo",
+    "name": "Igbo",
+    "region": "West Africa", 
+    "countries": ["Nigeria"],
+    "population": "32 million",
+    "language": "Igbo",
+    "coordinates": { "lat": 6.2649, "lng": 7.3967 },
+    "description": "Known for their democratic traditions, entrepreneurial spirit, and rich cultural heritage.",
+    "traditions": ["Masquerade festivals", "Kola nut ceremonies", "Traditional wrestling", "Sculpture"],
+    "dialects": ["Central Igbo", "Owerri", "Onitsha", "Nnewi"],
+    "audioSample": "/audio/igbo-greeting.mp3"
+  },
+  {
+    "id": "zulu",
+    "name": "Zulu",
+    "region": "Southern Africa",
+    "countries": ["South Africa"],
+    "population": "12 million",
+    "language": "isiZulu",
+    "coordinates": { "lat": -28.4792, "lng": 30.8136 },
+    "description": "The largest ethnic group in South Africa, famous for their warrior traditions and vibrant culture.",
+    "traditions": ["Traditional dancing", "Beadwork", "Pottery", "Oral storytelling"],
+    "dialects": ["Standard Zulu", "Coastal Zulu", "Inland Zulu"],
+    "audioSample": "/audio/zulu-greeting.mp3"
+  },
+  {
+    "id": "akan",
+    "name": "Akan",
+    "region": "West Africa",
+    "countries": ["Ghana", "Ivory Coast"],
+    "population": "20 million",
+    "language": "Twi",
+    "coordinates": { "lat": 6.6885, "lng": -1.6244 },
+    "description": "Known for their gold trade, kente cloth, and sophisticated political systems.",
+    "traditions": ["Kente weaving", "Gold crafting", "Adinkra symbols", "Drumming"],
+    "dialects": ["Ashanti Twi", "Akuapem Twi", "Fante"],
+    "audioSample": "/audio/akan-greeting.mp3"
+  },
+  {
+    "id": "amhara",
+    "name": "Amhara",
+    "region": "East Africa",
+    "countries": ["Ethiopia"],
+    "population": "19 million",
+    "language": "Amharic",
+    "coordinates": { "lat": 11.6000, "lng": 37.9000 },
+    "description": "Ancient people with a rich Christian heritage and unique script system.",
+    "traditions": ["Orthodox Christianity", "Coffee ceremonies", "Traditional music", "Ancient architecture"],
+    "dialects": ["Standard Amharic", "Gojjami", "Gondari"],
+    "audioSample": "/audio/amharic-greeting.mp3"
+  },
+  {
+    "id": "kikuyu",
+    "name": "Kikuyu",
+    "region": "East Africa",
+    "countries": ["Kenya"],
+    "population": "8 million",
+    "language": "Gikuyu",
+    "coordinates": { "lat": -0.7893, "lng": 36.9613 },
+    "description": "Kenya's largest ethnic group, known for their agricultural practices and independence struggle.",
+    "traditions": ["Traditional farming", "Circumcision ceremonies", "Oral literature", "Traditional governance"],
+    "dialects": ["Central Kikuyu", "Southern Kikuyu", "Northern Kikuyu"],
+    "audioSample": "/audio/kikuyu-greeting.mp3"
+  }
+]

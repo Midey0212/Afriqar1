@@ -1,0 +1,202 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom African Heritage Styles */
+@layer base {
+  :root {
+    --background: 254 249 244;
+    --foreground: 139 69 19;
+    --card: 255 255 255;
+    --card-foreground: 139 69 19;
+    --popover: 255 255 255;
+    --popover-foreground: 139 69 19;
+    --primary: 139 69 19;
+    --primary-foreground: 255 255 240;
+    --secondary: 205 133 63;
+    --secondary-foreground: 139 69 19;
+    --muted: 245 245 245;
+    --muted-foreground: 107 114 128;
+    --accent: 218 165 32;
+    --accent-foreground: 139 69 19;
+    --destructive: 220 20 60;
+    --destructive-foreground: 255 255 255;
+    --border: 229 231 235;
+    --input: 229 231 235;
+    --ring: 218 165 32;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* African Pattern Background */
+.african-pattern-bg {
+  background-image: 
+    radial-gradient(circle at 25% 25%, rgba(218, 165, 32, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 75% 75%, rgba(205, 133, 63, 0.1) 0%, transparent 50%),
+    linear-gradient(45deg, rgba(139, 69, 19, 0.05) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(139, 69, 19, 0.05) 25%, transparent 25%);
+  background-size: 60px 60px, 80px 80px, 20px 20px, 20px 20px;
+}
+
+/* Custom Scrollbar */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* African-themed animations */
+@keyframes african-pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.02);
+  }
+}
+
+.african-pulse {
+  animation: african-pulse 3s ease-in-out infinite;
+}
+
+/* Line clamp utilities */
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+/* Custom focus styles */
+.focus-african {
+  @apply focus:outline-none focus:ring-2 focus:ring-afriqar-secondary focus:ring-offset-2;
+}
+
+/* Slider styling */
+.slider {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #DAA520;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #DAA520;
+  cursor: pointer;
+  border: none;
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #DAA520, #CD853F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Loading spinner */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+/* Custom card hover effects */
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* African-inspired border patterns */
+.african-border {
+  border-image: linear-gradient(45deg, #DAA520, #CD853F, #8B4513) 1;
+}
+
+/* Interactive elements */
+.interactive-hover {
+  transition: all 0.2s ease;
+}
+
+.interactive-hover:hover {
+  transform: scale(1.05);
+}
+
+/* Text selection styling */
+::selection {
+  background-color: rgba(218, 165, 32, 0.3);
+  color: #8B4513;
+}
+
+::-moz-selection {
+  background-color: rgba(218, 165, 32, 0.3);
+  color: #8B4513;
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%
+  }
+
+  .dark {
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%
+  }
+}
+
+
+
+img {
+  object-position: top;
+}

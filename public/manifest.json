@@ -1,0 +1,27 @@
+{
+  "name": "African Diaspora Heritage & Entertainment",
+  "short_name": "AfricanHeritage",
+  "description": "Explore your African ancestry and enjoy authentic African cinema",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#8B4513",
+  "theme_color": "#D2691E",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/tribal-masks.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/african-patterns.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "entertainment", "lifestyle"],
+  "lang": "en",
+  "dir": "ltr"
+}
